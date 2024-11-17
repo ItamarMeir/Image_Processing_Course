@@ -1,7 +1,8 @@
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
-
+from scipy.stats import entropy
+from sklearn.metrics import mutual_info_score
 
 #     This code performs the following tasks (OOP version):
 #     1. Reads an image and extracts the red channel (I1).
